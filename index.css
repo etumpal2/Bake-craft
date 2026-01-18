@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+a {
+  color: brown ;
+  text-decoration: none;
+}
+a:hover {
+  color: brown ;
+}
+
+
+.header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  background-color: warm cream;
+}
+
+.logo {
+  width: 150px;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bmw-logo {
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: brown ;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  color: brown ;
+  font-style: italic;
+}
+
+/* NAVBAR */
+.anchor {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: cream;
+  font-size: 1.3em;
+}
+
+
+.footer {
+  height: 70%;
+  width: 100%;
+  display: flex;
+}
+
+
+.left {
+  width: 18%;
+  background-color: beige;
+  padding-top: 20px;
+}
+
+.left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left li {
+  padding: 12px;
+}
+
+
+.right {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: beige;
+}
